@@ -1,0 +1,55 @@
+p {
+	color:red ;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    line-height:2;
+    letter-spacing:1px;
+
+}
+
+h1{
+
+	color:black;
+	text-align:center;
+	font-size:40px; 
+}
+
+
+#latin {
+	color:green; 
+}
+
+.xususiyyet{
+	color:gray; 
+}
+
+img[src]{
+	width:180px; 
+}
+
+a:hover{
+
+	color:green;
+}
+
+html{
+	font-family: 'Dancing Script', cursive;
+	font-size:20px; 
+	background-color:#02142B;
+}
+
+body{
+
+	padding:0px 100px 100px 100px;
+	margin:0px,auto;
+}
+
+h1{
+	padding:10px 0px;
+	text-shadow: 3px 3px 23px red;
+}
+
+
+img[src="images/firefox.png"]{
+	width:180px;
+}
