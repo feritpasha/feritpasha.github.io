@@ -35,7 +35,7 @@ myButton.addEventListener('click',()=> {
    
                           
  //This will help us to add lists                        
- const list=document.createElement('ul')
+ const list=document.querySelector('.xususiyyet')
  const addMore=document.querySelector('.addList')
  document.body.appendChild(list);
 addMore.addEventListener('click',()=>{
