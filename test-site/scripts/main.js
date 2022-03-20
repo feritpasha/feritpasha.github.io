@@ -40,7 +40,7 @@ myButton.addEventListener('click',()=> {
  document.body.appendChild(list);
 addMore.addEventListener('click',()=>{
   const listItem = document.createElement('li');
-  const listContent = prompt('What content do you want the list item to have?');
+  const listContent = prompt('What are the reasons do you love mozilla?');
   listItem.textContent = listContent;
   list.appendChild(listItem); 
 })
