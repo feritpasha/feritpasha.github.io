@@ -45,7 +45,9 @@ addMore.addEventListener('click',()=>{
   list.appendChild(listItem); 
 })
 
-                          
+/*Note to me from past. Lists that I add should appear after this sentence : 'Click on add more for adding your reasons.'
+ Instead they go to the end of the page. This was working normal(the way i wanted) before i added 'add more' feature.
+ It has something to do with javascript. I'm writing this to make my page better by finding what isn't working the way i wanted to*/
 
 
 
