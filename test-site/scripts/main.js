@@ -1,6 +1,8 @@
+//This chunk of code is for making image change on click
+
 let myImage = document.querySelector('img');
 
-myImage.onclick = function() {
+myImage.addEventListener('click',()=> {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/firefox-logo.png') {
       myImage.setAttribute('src','images/firefox.png');
@@ -9,8 +11,8 @@ myImage.onclick = function() {
     }
 }
 
-
-
+                         
+//And this code is for changing h1 with change user button
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
@@ -27,7 +29,22 @@ if(!localStorage.getItem('name')) {
   myHeading.textContent = 'Mozilla is cool, ' + storedName;
 }
 
-myButton.onclick = function() {
+myButton.addEventListener('click',()=> {
   setUserName();
 }
+   
+                          
+ //This will help us to add lists                        
+ const list=document.createElement('ul')
+ document.body.appendChild(list);
+.addList.addEventListener('click',()=>{
+  const listItem = document.createElement('li');
+  const listContent = prompt('What content do you want the list item to have?');
+  listItem.textContent = listContent;
+  list.appendChild(listItem); 
+}
+
+                          
+
+
 
