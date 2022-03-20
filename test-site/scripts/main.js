@@ -36,8 +36,9 @@ myButton.addEventListener('click',()=> {
                           
  //This will help us to add lists                        
  const list=document.createElement('ul')
+ const addMore=document.querySelector('.addList')
  document.body.appendChild(list);
-ul.addEventListener('click',()=>{
+addMore.addEventListener('click',()=>{
   const listItem = document.createElement('li');
   const listContent = prompt('What content do you want the list item to have?');
   listItem.textContent = listContent;
