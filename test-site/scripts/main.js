@@ -9,7 +9,7 @@ myImage.addEventListener('click',()=> {
     } else {
       myImage.setAttribute('src','images/firefox-logo.png');
     }
-}
+})
 
                          
 //And this code is for changing h1 with change user button
@@ -31,7 +31,7 @@ if(!localStorage.getItem('name')) {
 
 myButton.addEventListener('click',()=> {
   setUserName();
-}
+})
    
                           
  //This will help us to add lists                        
@@ -42,7 +42,7 @@ myButton.addEventListener('click',()=> {
   const listContent = prompt('What content do you want the list item to have?');
   listItem.textContent = listContent;
   list.appendChild(listItem); 
-}
+})
 
                           
 
