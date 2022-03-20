@@ -37,12 +37,12 @@ myButton.addEventListener('click',()=> {
  //This will help us to add lists                        
  const list=document.querySelector('.xususiyyet')
  const addMore=document.querySelector('.addList')
- document.body.appendChild(list);
 addMore.addEventListener('click',()=>{
   const listItem = document.createElement('li');
   const listContent = prompt('What else can be added to my list?');
   listItem.textContent = listContent;
   list.appendChild(listItem); 
+  document.body.appendChild(list);
 })
 
 /*Note to me from past. Lists that I add should appear after this sentence : 'Click on add more for adding your reasons.'
