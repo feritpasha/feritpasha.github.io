@@ -53,3 +53,15 @@ body{
 img[src="images/firefox.png"]{
 	width:180px;
 }
+
+  button{
+    padding:0.3em 1.2em;
+    color:white;
+    background-color: rgb(187, 14, 14);
+    border-radius: 5em;
+}
+
+button:hover{
+color:black;
+}
+
