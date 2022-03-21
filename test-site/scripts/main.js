@@ -1,6 +1,6 @@
 //This chunk of code is for making image change on click
 
-let myImage = document.querySelector('logo');
+let myImage = document.querySelector('#logo');
 
 myImage.addEventListener('click',()=> {
     let mySrc = myImage.getAttribute('src');
