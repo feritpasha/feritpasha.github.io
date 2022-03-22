@@ -14,7 +14,7 @@ myImage.addEventListener('click',()=> {
                          
 //And this code is for changing h1 with change user button
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('basliq');
+let myHeading = document.querySelector('#basliq');
 
 function setUserName() {
   let myName = prompt('Please enter your name.');
