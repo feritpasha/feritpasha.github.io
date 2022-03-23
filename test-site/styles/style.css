@@ -66,4 +66,8 @@ button:hover{
 color:black;
 }
 
+figure{
+position:relative; right:15px;
+}
+
 
