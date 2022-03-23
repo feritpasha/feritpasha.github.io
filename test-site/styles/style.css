@@ -67,7 +67,11 @@ color:black;
 }
 
 figure{
-position:relative; right:23px;
+position:relative; right:27px;
+}
+
+figcaption{
+	margin-bottom: 4px;
 }
 
 
