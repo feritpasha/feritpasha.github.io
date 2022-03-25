@@ -72,3 +72,12 @@ footer{
 padding:40px;
 }
 
+  video {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  } 
+
+iframe{
+padding:40px;
+}
