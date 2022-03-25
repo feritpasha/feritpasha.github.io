@@ -81,3 +81,30 @@ padding:40px;
 iframe{
 padding:40px;
 }
+
+.about{
+    padding:40px
+}
+/*For making google maps responsive*/
+
+  .map-responsive{
+
+    overflow:hidden;
+
+  padding-bottom: 56%;
+    position:relative;
+  margin-bottom: 0px;
+}
+
+  .map-responsive iframe{
+
+   top:0;
+   left:0;
+
+     height:68%;
+
+    width:58%; 
+
+    position:absolute;
+
+}   
