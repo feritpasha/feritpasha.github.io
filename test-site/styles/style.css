@@ -78,7 +78,8 @@ padding:40px;
 }
 
 .about{
-    padding:40px
+   padding:40px;
+   padding-bottom:0;
 }
 /*For making google maps responsive*/
 
