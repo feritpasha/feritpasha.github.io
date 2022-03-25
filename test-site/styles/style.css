@@ -34,9 +34,7 @@ a:hover{
 }
 
 
-
 body{
-	padding:0 100px 100px 100px;
 	margin:0 auto;
 	width: 100%;
 	max-width:1200px;
@@ -66,4 +64,11 @@ figure{
 position:relative; right:40px;
 }
 
+article{
+padding:45px;
+}
+
+footer{
+padding:40px;
+}
 
