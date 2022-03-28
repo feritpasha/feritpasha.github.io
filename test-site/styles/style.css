@@ -28,6 +28,7 @@ h1 {
 
 
 a:hover{
+	text-decoration:none;
 	color:darkmagenta;
 }
 
