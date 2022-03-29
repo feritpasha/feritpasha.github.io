@@ -27,11 +27,15 @@ h1 {
 }
 
 
-a:hover{
+a[href="https://developer.mozilla.org"]:hover{
 	text-decoration:none;
 	color:darkmagenta;
 }
 
+a[href="firefox-page2/index.html"]:hover{
+	text-decoration:none;
+	color:darkmagenta;
+}
 
 body{
 	margin:0 auto;
